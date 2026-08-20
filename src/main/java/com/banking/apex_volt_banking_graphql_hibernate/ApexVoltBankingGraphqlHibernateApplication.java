@@ -6,8 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class ApexVoltBankingGraphqlHibernateApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(ApexVoltBankingGraphqlHibernateApplication.class, args);
-	}
-
+  public static void main(String[] args) {
+    SpringApplication.run(ApexVoltBankingGraphqlHibernateApplication.class, args);
+  }
 }
