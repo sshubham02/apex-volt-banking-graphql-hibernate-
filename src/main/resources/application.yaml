@@ -1,0 +1,22 @@
+spring:
+  graphql:
+    graphiql:
+      enabled:true
+  datasource:
+    url: jdbc:postgresql://localhost:5432/apex_volt_banking
+    username: ${DB_USERNAME}
+    password: ${DB_PASSWORD}
+    driver-class-name: org.postgresql.Driver
+  application:
+    name: apex-volt-banking-graphql-hibernate
+  jpa:
+    hibernate:
+      ddl-auto: validate
+
+    show-sql: true
+
+    properties:
+      hibernate:
+        format_sql: true
+
+
